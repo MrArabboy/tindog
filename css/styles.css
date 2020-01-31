@@ -1,0 +1,153 @@
+body{
+    font-family: 'Montserrat';
+    
+}
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+h3{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:20px;
+}
+h2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color:#8f8f8f ;
+}
+.icon{
+    color:#ef8172;
+    padding-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68 ;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: Bold;
+}
+.nav-link{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+/* Download Button */
+.download-button{
+    margin:5% 3% 5% 0;
+}
+/* Title-image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+/* Feature section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align:center;
+    padding: 5%;
+}
+
+/* Testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+} 
+
+/* Press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+/* Pricing Section*/
+.card{
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Media query */
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+}
+}
+/* cta section */
+#cta{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+.ctaa h3{
+    font-family: 'Archivo Black', sans-serif; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+/* Footer section */
+#footer{
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+   
+}
+
+#footer i{
+   padding: 20px 10px;
+}
+
+
